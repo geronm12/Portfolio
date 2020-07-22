@@ -7,7 +7,11 @@ export default function HomePage(props) {
     
     return (
         <div id={id} className="home-page">
-            <h1>GERONIMO LOPEZ</h1>
+            <div className="home-page__container">
+            <h1>GERONIMO NAUM</h1>
+            <h1 className="home-page__transparente">GERONIMO NAUM</h1>
+            </div>
+            <h3>Software Developer</h3>
         </div>
     )
 }

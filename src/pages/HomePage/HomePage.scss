@@ -6,7 +6,37 @@
     align-items: center;
     justify-content: center;
     background-image: url("../../assets/jpg/background.jpg");
-    h1{
+    
+    flex-direction: column;
+    background-repeat: no-repeat;
+   
+    &__container{   
+        border-radius: 10px;
+        height: 130px;
+        overflow: hidden;
+        
+        h1{
+            color: white;
+            font-size: 80px !important;
+            font-weight: bold;
+             margin-bottom: 30px;
+           
+        }
+
+    }
+
+    h3{
+        font-size: 30px;
         color: white;
+         
+    }
+
+    &__transparente{
+        transform: rotate(180deg);
+        opacity: 0.4;
+        margin-bottom: 30px !important;
+        position: relative;
+        bottom: 80px;
+       
     }
 }

@@ -16,28 +16,22 @@ import {useRedirection} from "../../hooks/useRedirection";
 export default function Navbar(props) {
 
     const {ids} = props;
- 
-    const [collapsed, setCollapsed] = useState(false);
- 
+  
     const Redirection = (pageid) => {
       useRedirection(pageid)
     }
 
-    const toggleCollapsed = () => {
-        setCollapsed(!collapsed);
-      };
+    
 
     return (
         <div style={{ width: 256 }}>
-          <Button type="primary" onClick={toggleCollapsed} style={{ marginBottom: 16 }}>
-            {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined)}
-          </Button>
+         
           <Menu
             defaultSelectedKeys={['1']}
             defaultOpenKeys={['sub1']}
             mode="inline"
             theme="dark"
-            inlineCollapsed={collapsed}
+            inlineCollapsed={true}
           >
             <Menu.Item key="1" icon={<AppstoreOutlined />} onClick={() => Redirection(ids[0])}>
               Home
