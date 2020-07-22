@@ -9,9 +9,10 @@ import "./AboutPage.scss";
 export default function AboutPage(props) {
     const {id} = props;
     return (
+        <div className="container"> 
         <div id={id} className="about-page">
             <div className="about-page__container">
-                <img src={"Foto"}/>
+                <img src={"Foto"} alt="foto"/>
             <p>
                 Mi nombre es Gerónimo Naum López, tengo 25 años y soy desarrollador de software.
                 Me inicié en el mundo de la programación hace casi 2 años y medio y desde entonces dedique todo mi tiempo
@@ -23,14 +24,19 @@ export default function AboutPage(props) {
             </div>
       
             <div className="about-page__tecnologias">
-              {Tecnologias.forEach(tecnologia => {
+              {Tecnologias.map(tecnologia => {
                 
-                <Card imagen={tecnologia.img} text={tecnologia.text}/> 
+              return (<>
+                  <Card imagen={tecnologia.img} texto={tecnologia.text}></Card>
+                  
+                </>
+              );
 
               })}
             </div>
           
         </div>
+              </div>
     )
 }
 
@@ -40,14 +46,23 @@ function Card (props){
     const {imagen, texto} = props;
 
     return(
+        <div className="card-parent">
         <div className="card-container">
         <div className="card">
-            <img src={imagen}/>
-            
+            <img src={imagen} alt="imagen"/>
         </div>
              <p>
                 {texto}
              </p>
+        </div>
+        <div className="card-container mirror">
+        <div className="card">
+            <img src={imagen} alt="imagen"/>
+        </div>
+             <p>
+                {texto}
+             </p>
+        </div>
         </div>
     )
 

@@ -6,12 +6,12 @@ import Html from '../../assets/tecnologias/html.jpg';
 import Css from '../../assets/tecnologias/cscss.png';
 import Sass from '../../assets/tecnologias/scss.jpg';
 import FlutterDart from '../../assets/tecnologias/flutter-dart.png';
-import Net from '../../assets/tecnologias/NET_core';
+import Net from '../../assets/tecnologias/NET.png';
 
 export const Tecnologias = [
 {
     nombre: 'React',
-    text:  "Clases, ciclos de vida, fetch, patrón contenedor contenido, hooks, custom hooks, redux, react-router-dom, react-dropzone, etc",
+    text:  "Clases, ciclos de vida, hooks, custom hooks, redux, react-router-dom, react-dropzone, etc",
     img: ReactImage
 },
 {
@@ -31,7 +31,7 @@ export const Tecnologias = [
 },
 {
     nombre: 'Javascript',
-    text: 'Ecmascript 6, Prototypes, Manejo del DOM, clases, Arrow Function, Async-Await, fetch, ajax, entre otros.',
+    text: 'Ecmascript 6, Prototypes, Manejo del DOM, clases, Arrow Function, Async-Await, fetch, ajax,etc',
     img: Javascript
 },
 {
@@ -41,7 +41,7 @@ export const Tecnologias = [
 },
 {
     nombre: 'Css',
-    text: "animaciones, pseudo-clases, pseudo-elementos, media-queries",
+    text: "Animaciones, pseudo-clases, pseudo-elementos, media-queries",
     img: Css
 },
 {
