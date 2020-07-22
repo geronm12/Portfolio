@@ -1,25 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import { Row, Col, Divider } from 'antd';
+
+import HomePage from "./pages/HomePage";
+import RepoPage from "./pages/RepoPage";
+import Contact from "./pages/ContactPage";
+import About from "./pages/AboutPage";
+
+import "./App.scss";
 
 function App() {
+
+  const ids = ["#home", "#about", "#contact", "#repo"]
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <Row className="app-container">
+      <Col span={2} className="app-container__left">
+        <Navbar ids={ids}></Navbar>
+      </Col>
+      <Col span={2}></Col>
+      <Col span={24}>
+      <HomePage id="home"></HomePage>
+      <About id="about" ></About>
+      <Contact id="contact" ></Contact>
+      <RepoPage id="repo"></RepoPage>
+      </Col>
+     </Row>
+    
+    </>
   );
 }
 

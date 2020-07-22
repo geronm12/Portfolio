@@ -1,0 +1,28 @@
+.contact-page{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+    
+    h1{
+        color: white;
+    }
+
+    &__form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h3{
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        width: 500px;
+
+        &__container{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.app-container{
+    min-height: 100vh !important;
+    display: flex !important;
+    
+    &__left{
+        position: fixed !important;
+        z-index: 100;
+        min-height: 100vh;
+    }
+}
+
+.right{
+    background-color: blue;
+    width: 100px !important;
+}
