@@ -49,14 +49,14 @@
 }
 
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 450px) and (min-width: 320px){
 
     .home-page{
       
 
         &__container{
             height: 60px;
-            margin-bottom: 10px;
+
             h1{
                 font-size: 40px !important;
             }
@@ -78,7 +78,81 @@
             opacity: 0.4;
             margin-bottom: 30px;
             position: relative;
-            bottom: 55px;
+            bottom: 60px;
+           
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 710px) and (min-width: 500px){
+
+    .home-page{
+      
+
+        &__container{
+            height: 100px;
+
+            h1{
+                font-size: 40px !important;
+            }
+        }
+
+        h3{
+            font-size: 20px;
+        }
+
+        a{
+            font-size: 40px !important;
+            color: white !important;
+    
+        }
+
+
+        &__transparente{
+            transform: rotate(180deg);
+            opacity: 0.4;
+            margin-bottom: 30px;
+            position: relative;
+            bottom: 60px;
+           
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) and (min-width: 450px){
+
+    .home-page{
+      
+
+        &__container{
+            height: 50px;
+            margin-bottom: 20px;
+            h1{
+                font-size: 30px !important;
+            }
+        }
+
+        h3{
+            font-size: 20px;
+        }
+
+        a{
+            font-size: 40px !important;
+            color: white !important;
+    
+        }
+
+
+        &__transparente{
+            transform: rotate(180deg);
+            opacity: 0.4;
+            margin-bottom: 30px;
+            position: relative;
+            bottom: 50px;
            
         }
     }
@@ -87,7 +161,7 @@
 
 
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 360px){
 
     .home-page{
       

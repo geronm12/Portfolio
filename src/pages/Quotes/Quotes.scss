@@ -18,7 +18,7 @@
     }
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 450px) and (min-width: 320px){
     .quote-page{
         font-size: 10px;
     }
@@ -30,6 +30,26 @@
 
         p{
             font-size: 6px;
+        }
+    }
+}
+
+@media only screen and (max-width: 710px) and (min-width: 520px){
+    .quote-page{
+        font-size: 15px;
+
+        p{
+            font-size: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 520px) and (min-width: 450px){
+    .quote-page{
+        font-size: 12px;
+
+        p{
+            font-size: 8px;
         }
     }
 }
