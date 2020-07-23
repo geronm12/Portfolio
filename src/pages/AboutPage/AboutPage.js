@@ -23,12 +23,11 @@ export default function AboutPage(props) {
             </div>
       
             <div className="about-page__tecnologias">
-              {Tecnologias.map(tecnologia => {
+              {Tecnologias.map((tecnologia, index) => {
                 
-              return (<>
-                  <Card imagen={tecnologia.img} texto={tecnologia.text}></Card>
-                  
-                </>
+              return ( 
+                  <Card key={index} imagen={tecnologia.img} texto={tecnologia.text}></Card>
+                
               );
 
               })}

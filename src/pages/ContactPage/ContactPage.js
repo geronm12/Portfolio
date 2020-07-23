@@ -12,8 +12,8 @@ export default function ContactPage(props) {
         <div id={id} className="contact-page">
              <h1>Datos de contacto</h1>
             <div className="contact-page__info">
-                    {contactData.map(data => (
-                        <div className="contact-page__info__item">
+                    {contactData.map((data,index) => (
+                        <div key={index} className="contact-page__info__item">
                             <data.icon/>
                             <h3>{data.texto}</h3>
                         </div>
