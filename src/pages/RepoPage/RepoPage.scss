@@ -38,3 +38,20 @@
     }
   
 }
+@media only screen and (max-width: 320px){
+    
+    .repo-page{
+        margin-left: 20px;
+        svg{
+            
+            width: 22px;
+            margin-left: 0;
+            margin-right: 15px;
+        }
+
+        svg:last-of-type{
+            margin-right: 20px;
+        }
+    }
+  
+}

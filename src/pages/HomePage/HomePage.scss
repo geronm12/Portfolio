@@ -84,3 +84,41 @@
     }
 
 }
+
+
+
+@media only screen and (max-width: 320px){
+
+    .home-page{
+      
+
+        &__container{
+            height: 50px;
+            margin-bottom: 10px;
+            h1{
+                font-size: 30px !important;
+            }
+        }
+
+        h3{
+            font-size: 15px;
+        }
+
+        a{
+            font-size: 30px !important;
+            color: white !important;
+    
+        }
+
+
+        &__transparente{
+            transform: rotate(180deg);
+            opacity: 0.4;
+            margin-bottom: 30px;
+            position: relative;
+            bottom: 50px;
+           
+        }
+    }
+
+}
