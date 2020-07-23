@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: center;
     background-image: url("../../assets/jpg/background.jpg");
-    
     flex-direction: column;
     background-repeat: no-repeat;
    
@@ -47,4 +46,41 @@
         bottom: 80px;
        
     }
+}
+
+
+@media only screen and (max-width: 450px){
+
+    .home-page{
+      
+
+        &__container{
+            height: 60px;
+            margin-bottom: 10px;
+            h1{
+                font-size: 40px !important;
+            }
+        }
+
+        h3{
+            font-size: 20px;
+        }
+
+        a{
+            font-size: 40px !important;
+            color: white !important;
+    
+        }
+
+
+        &__transparente{
+            transform: rotate(180deg);
+            opacity: 0.4;
+            margin-bottom: 30px;
+            position: relative;
+            bottom: 55px;
+           
+        }
+    }
+
 }

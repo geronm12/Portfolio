@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    // background-color: #87dcea;
+     
      
     svg{
         color: white;
@@ -11,9 +11,30 @@
         margin-left: 20px;
         width: 100px;
 
+        &:focus, &:active{
+            background-color: transparent !important;
+        }
+
         &:hover{
             color:#87dcea;
         }
     }
      
+}
+
+@media only screen and (max-width: 450px){
+    
+    .repo-page{
+        svg{
+            font-size: 30px;
+            width: 25px;
+            margin-left: 0;
+            margin-right: 15px;
+        }
+
+        svg:last-of-type{
+            margin-right: 20px;
+        }
+    }
+  
 }

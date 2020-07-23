@@ -11,6 +11,7 @@ export default function RepoPage(props) {
          {socialMedia.map(media => (
              <a href={media.url} target="_blank" rel="noopener noreferrer"><media.icon/></a>
          ))}
+       
         </div>
     )
 }
