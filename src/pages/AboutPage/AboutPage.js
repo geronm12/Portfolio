@@ -17,7 +17,7 @@ export default function AboutPage(props) {
                 Me inicié en el mundo de la programación hace casi 2 años y medio y desde entonces dedique todo mi tiempo
                 a profundizar mis conocimientos.    
                 Amo programar y me divierte muchísimo pero también soy muy ambicioso con el conocimiento, me gusta aprender constantemente,
-                soy proactivo, creativo y carismático. Mi mayor virtud es mi capacidad de resilencia y mi mayor defecto es la terquedad.
+                soy proactivo, creativo y carismático. Mi mayor virtud es mi capacidad de resilencia y mi mayor defecto es mi tenacidad.
                 Me gusta trabajar en equipo y soy muy comunicativo."
             </p>
             </div>
