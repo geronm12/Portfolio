@@ -1,5 +1,6 @@
 import React from 'react';
 import "./HomePage.scss";
+import {DownloadOutlined}from '@ant-design/icons';
 
 export default function HomePage(props) {
 
@@ -12,6 +13,7 @@ export default function HomePage(props) {
             <h1 className="home-page__transparente">GERONIMO NAUM</h1>
             </div>
             <h3>Software Developer</h3>
+            <a href="../../downloads/CV-GeronimoLopez.pdf" download><DownloadOutlined /></a>
         </div>
     )
 }
