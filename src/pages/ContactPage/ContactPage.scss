@@ -3,10 +3,38 @@
     display: flex;
     align-items: center;
     justify-content: center;
-     
-    
+    background-color: #205f95 !important;
+    flex-direction: column;
     h1{
         color: white;
+        font-size: 50px;
+        margin-right: 60px;
+      
     }
+   
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+
+        &__item{
+            display: flex;
+            align-items: center;
+            color: white;
+            h3{
+                color: white;
+                margin-left: 15px;
+                margin-top: 5px;
+                font-size: 25px;
+            
+            }
+            svg{
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+
+    
  
 }

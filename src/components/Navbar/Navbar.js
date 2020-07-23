@@ -2,11 +2,9 @@ import React, {useState, useEffect} from 'react';
 import { Menu, Button } from 'antd';
 import {
   AppstoreOutlined,
-  MenuUnfoldOutlined,
-  MenuFoldOutlined,
-  PieChartOutlined,
+  BulbOutlined,
   DesktopOutlined,
-  ContainerOutlined,
+  LinkedinOutlined,
   MailOutlined,
 } from '@ant-design/icons';
 
@@ -39,11 +37,14 @@ export default function Navbar(props) {
             <Menu.Item key="2" icon={<DesktopOutlined />} onClick={() => Redirection(ids[1])}>
               About
             </Menu.Item>
-            <Menu.Item key="3" icon={<MailOutlined />} onClick={() => Redirection(ids[2])}>
+            <Menu.Item key="3" icon={<BulbOutlined />} onClick={() => Redirection(ids[2])}>
+              Quote
+            </Menu.Item>
+            <Menu.Item key="4" icon={<MailOutlined />} onClick={() => Redirection(ids[3])}>
               Contact
             </Menu.Item>
-            <Menu.Item key="4" icon={<ContainerOutlined />} onClick={() => Redirection(ids[3])}>
-              Repo
+            <Menu.Item key="5" icon={<LinkedinOutlined />} onClick={() => Redirection(ids[4])}>
+              Social Media
             </Menu.Item>
           </Menu>
         </div>

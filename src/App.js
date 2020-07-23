@@ -6,12 +6,13 @@ import HomePage from "./pages/HomePage";
 import RepoPage from "./pages/RepoPage";
 import Contact from "./pages/ContactPage";
 import About from "./pages/AboutPage";
+import Quotes from "./pages/Quotes";
 
 import "./App.scss";
 
 function App() {
 
-  const ids = ["#home", "#about", "#contact", "#repo"]
+  const ids = ["#home", "#about", "#quotes","#contact", "#repo"]
   
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
       <Col span={24}>
       <HomePage id="home"></HomePage>
       <About id="about" ></About>
+      <Quotes id="quotes"/>
       <Contact id="contact" ></Contact>
       <RepoPage id="repo"></RepoPage>
       </Col>

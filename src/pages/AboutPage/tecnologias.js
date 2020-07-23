@@ -11,22 +11,22 @@ import Net from '../../assets/tecnologias/NET.png';
 export const Tecnologias = [
 {
     nombre: 'React',
-    text:  "Clases, ciclos de vida, hooks, custom hooks, redux, react-router-dom, react-dropzone, etc",
+    text:  "Clases, Ciclos de vida, Hooks, Custom Hooks, Redux, React-Router-Dom, etc",
     img: ReactImage
 },
 {
     nombre: 'Flutter/Dart',
-    text: "Patrón Block, Consumo Apis, Streams, Extensiones reactivas, Widgets, Widget Tree, mixins, etc",
+    text: "Patrón Block, Consumo Apis, Streams, Extensiones reactivas, Widgets, Widget Tree, Mixins, etc",
     img: FlutterDart
 },
 {
     nombre: 'Golang',
-    text:  'Api rest',
+    text:  'Api Rest',
     img: Golang
 },
 {
     nombre: 'Node js',
-    text: 'Api rest, Sockets',
+    text: 'Api Rest, Sockets',
     img: Nodejs
 },
 {
@@ -36,12 +36,12 @@ export const Tecnologias = [
 },
 {
     nombre: 'Html',
-    text:  'Etiquetas html, body, head, etc',
+    text:  'Etiquetas Html, body, head, etc',
     img: Html
 },
 {
     nombre: 'Css',
-    text: "Animaciones, pseudo-clases, pseudo-elementos, media-queries",
+    text: "Animaciones, Pseudo-clases, Pseudo-elementos, Media-Queries",
     img: Css
 },
 {

@@ -16,7 +16,7 @@
             margin-bottom: 30px;
             p{
                 color: white;
-                font-size: 20px;
+                font-size: 25px;
             }
         }
     
@@ -26,7 +26,7 @@
             width: 85%;
             justify-content: flex-start;
             border-radius: 10px;
-            height: 380px;
+            height: 450px;
             align-items: center;
         }
        
@@ -79,13 +79,11 @@ flex-direction: column;
 
 }
  .mirror{
-     transform: rotate3d(180deg, 180deg);
-     border-radius: 10px;
-     opacity: 0.2;
-     height: 40px !important;
+     transform: rotate3d(180, 0, 0, 180deg) !important;
+     opacity: 0.3;
+     height: 35px !important;
      overflow: hidden;
      margin-left: 50px;
      width: 300px;
-     margin-top: 5px;
-     margin-bottom: 10px;
+     margin-bottom: 15px;
  }
