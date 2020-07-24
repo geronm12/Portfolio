@@ -1,5 +1,6 @@
 import React from 'react';
 import {Tecnologias} from "./tecnologias";
+import {} from "react-responsive"
 
 import "./AboutPage.scss";
 

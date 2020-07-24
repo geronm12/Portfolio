@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from "./components/Navbar";
-import { Row, Col, Divider } from 'antd';
+import NavbarPortrait from "./components/NavbarPortrait";
+import { Row, Col } from 'antd';
+import {useMediaQuery} from "react-responsive";
 
 import HomePage from "./pages/HomePage";
 import RepoPage from "./pages/RepoPage";
@@ -14,11 +16,15 @@ function App() {
 
   const ids = ["#home", "#about", "#quotes","#contact", "#repo"]
   
+  const isMobile = useMediaQuery({
+    query: '(max-width: 700px)'
+  })
+
   return (
     <>
      <Row className="app-container">
       <Col span={2} className="app-container__left">
-        <Navbar ids={ids}></Navbar>
+        {isMobile ? <NavbarPortrait ids={ids}></NavbarPortrait> : <Navbar ids={ids}></Navbar>}
       </Col>
       <Col span={2}></Col>
       <Col span={24}>

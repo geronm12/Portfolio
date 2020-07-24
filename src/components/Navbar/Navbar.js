@@ -29,7 +29,7 @@ export default function Navbar(props) {
     useEffect(() => {
       window.addEventListener('scroll', handleScroll);
       return () => {
-        window.removeEventListener('scroll');
+        window.removeEventListener('scroll', handleScroll);
       }
     }, [])
  
@@ -41,11 +41,11 @@ export default function Navbar(props) {
 
        console.log(y);
 
-       if(y <= 750){
+       if(y <= 650){
          setKey(['1']);
        }
 
-       if(y <= 1000 && y > 750){
+       if(y <= 1000 && y > 650){
          setKey(['2'])
        }
 
