@@ -25,7 +25,6 @@
         &__card{
             width: 300px;
             height: 300px;
-            background-color: white;
             border-radius: 15px;
             display: flex;
             flex-direction: column;
@@ -33,6 +32,15 @@
             margin-left: 20px;
             margin-bottom: 20px;
             transition: opacity 1s;
+            //background-image: url('../../assets/jpg/galaxy.jpg');
+            background-color: #212122;
+            color: white;
+            border: 1px solid white;
+
+            h2{
+                color: white;
+            }
+
             &:hover{
                 cursor:pointer;
               
@@ -47,6 +55,7 @@
                 background-size: cover;
                 background-position: center;
                 border-radius: 15;
+                 
             }
     
             &__texto{
@@ -73,7 +82,47 @@
      
 }
 
+.modal{
+   
+    &__title{
+        background-color: #212122 !important;
+        color: white !important;
+        border-bottom: 1px solid white !important;
+    }
 
+    &__content{
+       display: flex !important;
+       align-items: center !important;
+       justify-content: center !important;
+       background-color: #212122 !important;
+       flex-direction: column;
+
+        &__image{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+            border: 1px solid white;
+          
+        }
+
+        &__description{
+            
+            margin-top: 20px;
+            &__p{
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 20px;
+                color: white;
+                font-weight: bold;
+            }
+
+        }
+    }
+}
 
 
 
