@@ -3,10 +3,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #205f95 !important;
+    background-color: white !important;
     flex-direction: column;
     h1{
-        color: white;
+        color: black;
         font-size: 50px;
         margin-right: 60px;
       
@@ -20,9 +20,9 @@
         &__item{
             display: flex;
             align-items: center;
-            color: white;
+            color: black;
             h3{
-                color: white;
+                color: black;
                 margin-left: 15px;
                 margin-top: 5px;
                 font-size: 25px;

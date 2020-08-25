@@ -1,7 +1,5 @@
 import React from 'react';
-import {Tecnologias} from "./tecnologias";
-import {} from "react-responsive"
-
+import { Image } from 'semantic-ui-react'
 import "./AboutPage.scss";
 
 
@@ -12,27 +10,36 @@ export default function AboutPage(props) {
         <div className="container"> 
         <div id={id} className="about-page">
             <div className="about-page__container">
-             
+            <div className="about-page__container__perfil">
+            <Image className='about-page__container__perfil__foto' 
+            />
+            <div className="about-page__container__perfil__parrafo">
+                <span>Geronimo López</span>
+                <span>Software Developer</span>
+            </div>
+            </div>
             <p>
-                "Mi nombre es Gerónimo Naum López, tengo 25 años y soy desarrollador de software.
-                Me inicié en el mundo de la programación hace casi 2 años y medio y desde entonces dedique todo mi tiempo
-                a profundizar mis conocimientos.    
-                Amo programar y me divierte muchísimo pero también soy muy ambicioso con el conocimiento, me gusta aprender constantemente,
-                soy proactivo, creativo y carismático. Mi mayor virtud es mi capacidad de resilencia y mi mayor defecto es mi tenacidad.
-                Me gusta trabajar en equipo y soy muy comunicativo."
-            </p>
+                "Aquél que puede conquista a los enemigos es fuerte. Aquel que se ha conquistado a sí mismo es poderoso"
+                 Con está frase de Lao Tse me presento.  Mi nombre es Gerónimo Naum López y hago lo que amo... 
+                 Que bonito poder decir eso ¿no?. </p>
+                   <p>Soy software developer, una profesión que me crucé por pura suerte, por casualidades o quizás
+                 causalidades ¿quién sabe?, al día de hoy el debate entre la existencia o no del destino (y tantas cosas) debería dejar de ser el foco, y deberíamos
+                 concentrarnos en el creer, una vez leí una frase que decía "Creo que cuando creo, creo". ¿Qué loco, no? </p>
+
+                  <p>    Comencé en el año 2018 en la carrera Técnico Univeristario en Programación y al día de la fecha puedo decir 
+                 que tengo la dicha de hacer algo que realmente me apasiona, algo que me mantiene vivo y me motiva a querer crecer, aprender
+                 constantemente. </p>
+                 <p>Creo que el Software y la programación pueden cambiar la vida de las personas. Estoy en un mundo muy basto,
+                 con muchísimo para dar y un conocimiento completamente infinito y nuevo. </p>
+                 <p>Un mundo donde cada día es un nuevo desafío y donde
+                 todos pueden aportar. Donde trabajamos en conjunto, en equipo, para poder crear algo que va más allá de las capacidades, y ¡que sabio
+                 fue Walt Disney! al decir "Los grandes logros de cualquier persona generalmente dependen de muchas manos, corazones y mentes".</p>
+                 <p>Bienvenidos a mi Portfolio, página que intentaré mantener actualizada constantemente con mis proyectos, conocimientos, experiencias y pensamientos.
+                  Muchas gracias por darte una vuelta. Las puertas de mi casa siempre estarán abiertas.
+                        </p>
             </div>
       
-            <div className="about-page__tecnologias">
-              {Tecnologias.map((tecnologia, index) => {
-                
-              return ( 
-                  <Card key={index} imagen={tecnologia.img} texto={tecnologia.text}></Card>
-                
-              );
-
-              })}
-            </div>
+          
           
         </div>
               </div>
@@ -40,30 +47,4 @@ export default function AboutPage(props) {
 }
 
 
-function Card (props){
-
-    const {imagen, texto} = props;
-
-    return(
-        <div className="card-parent">
-        <div className="card-container">
-        <div className="card">
-            <img src={imagen} alt="imagen"/>
-        </div>
-             <p>
-                {texto}
-             </p>
-        </div>
-        <div className="card-container mirror">
-        <div className="card">
-            <img src={imagen} alt="imagen"/>
-        </div>
-             <p>
-                {texto}
-             </p>
-        </div>
-        </div>
-    )
-
-
-}
+ 

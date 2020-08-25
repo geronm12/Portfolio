@@ -4,6 +4,7 @@ import './index.scss';
 import App from './App';
 import 'antd/dist/antd.css';
 import * as serviceWorker from './serviceWorker';
+import 'semantic-ui-css/semantic.min.css';
 
 ReactDOM.render(<App />,
   

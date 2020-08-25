@@ -78,8 +78,10 @@ export default function Navbar(props) {
             <Menu.Item key="2" icon={<DesktopOutlined />} onClick={() => Redirection(ids[1], '2')}>
               About
             </Menu.Item>
-            <Menu.Item key="3" icon={<BulbOutlined />} onClick={() => Redirection(ids[2], '3')}>
-              Quote
+          
+
+            <Menu.Item key="3" icon={<MailOutlined />} onClick={() => Redirection(ids[2], '3')}>
+              Knowlege
             </Menu.Item>
             <Menu.Item key="4" icon={<MailOutlined />} onClick={() => Redirection(ids[3], '4')}>
               Contact
@@ -87,6 +89,7 @@ export default function Navbar(props) {
             <Menu.Item key="5" icon={<LinkedinOutlined />} onClick={() => Redirection(ids[4], '5')}>
               Social Media
             </Menu.Item>
+            
           </Menu>
         </div>
       );

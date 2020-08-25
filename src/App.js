@@ -9,6 +9,7 @@ import RepoPage from "./pages/RepoPage";
 import Contact from "./pages/ContactPage";
 import About from "./pages/AboutPage";
 import Quotes from "./pages/Quotes";
+ 
 
 import "./App.scss";
 

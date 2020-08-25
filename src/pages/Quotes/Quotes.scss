@@ -1,22 +1,81 @@
 .quote-page{
-    min-height: 100vh;
-    background-color: #013564;
-    color:white !important;
-    font-size: 40px;
+    min-height: 110vh;
+    background-color:lighten($color: black, $amount: 5);
+    padding: 0;
     display: flex;
-    align-items: center;
+    padding: 30px;
     justify-content: center;
     flex-direction: column;
-    padding: 0;
+    align-items: center;
 
     h1{
+        margin-bottom: 30px;
         color: white;
+        font-weight: bold;
     }
 
-    p{
-        font-size: 15px;
+    &__container{
+
+        width: 90% !important;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        
+        &__card{
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            transition: opacity 1s;
+            &:hover{
+                cursor:pointer;
+              
+                opacity: 0.5;
+                
+            }
+    
+            &__item{
+                width: 300px;
+                height: 200px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                border-radius: 15;
+            }
+    
+            &__texto{
+                
+                h2{
+                    font-weight: bold;
+                    text-align: center;
+                     
+                }
+    
+                p{
+                    white-space: pre-wrap;
+                    text-align: center;
+                    font-size: 15px;
+
+                }
+                 
+                
+            }
+        }
     }
+   
+
+     
 }
+
+
+
+
 
 @media only screen and (max-width: 450px) and (min-width: 320px){
     .quote-page{
