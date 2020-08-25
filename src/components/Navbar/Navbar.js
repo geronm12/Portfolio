@@ -41,23 +41,23 @@ export default function Navbar(props) {
 
        console.log(y);
 
-       if(y <= 650){
+       if(y <= 700){
          setKey(['1']);
        }
 
-       if(y <= 1000 && y > 650){
+       if(y <= 1715 && y > 700){
          setKey(['2'])
        }
 
-       if(y <= 1690 && y > 1000){
+       if(y <= 2500 && y > 1715){
          setKey(['3'])
        }
 
-       if(y <= 2300 && y > 1690){
+       if(y <= 2515 && y > 2500){
          setKey(['4'])
        }
        
-        if(y <= 2500 && y > 2200){
+        if(y <= 2620 && y > 2515){
           setKey(['5'])
         }
 
@@ -80,8 +80,8 @@ export default function Navbar(props) {
             </Menu.Item>
           
 
-            <Menu.Item key="3" icon={<MailOutlined />} onClick={() => Redirection(ids[2], '3')}>
-              Knowlege
+            <Menu.Item key="3" icon={<BulbOutlined />} onClick={() => Redirection(ids[2], '3')}>
+              Knowledge
             </Menu.Item>
             <Menu.Item key="4" icon={<MailOutlined />} onClick={() => Redirection(ids[3], '4')}>
               Contact
