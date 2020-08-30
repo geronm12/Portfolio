@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ca3caa0e.chunk.css",
-    "main.js": "/Portfolio/static/js/main.f12a3c2e.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.f12a3c2e.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.64e81c21.chunk.css",
+    "main.js": "/Portfolio/static/js/main.e7549044.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.e7549044.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.efb1fe8d.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.efb1fe8d.js.map",
     "static/css/2.ae5b9f2a.chunk.css": "/Portfolio/static/css/2.ae5b9f2a.chunk.css",
-    "static/js/2.e6f537e4.chunk.js": "/Portfolio/static/js/2.e6f537e4.chunk.js",
-    "static/js/2.e6f537e4.chunk.js.map": "/Portfolio/static/js/2.e6f537e4.chunk.js.map",
+    "static/js/2.6ebd9615.chunk.js": "/Portfolio/static/js/2.6ebd9615.chunk.js",
+    "static/js/2.6ebd9615.chunk.js.map": "/Portfolio/static/js/2.6ebd9615.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.2d0f6f8bae4661b5c370c0e5d5e86f76.js": "/Portfolio/precache-manifest.2d0f6f8bae4661b5c370c0e5d5e86f76.js",
+    "precache-manifest.54e090acb6d44ef4ed23505f693f705a.js": "/Portfolio/precache-manifest.54e090acb6d44ef4ed23505f693f705a.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.ae5b9f2a.chunk.css.map": "/Portfolio/static/css/2.ae5b9f2a.chunk.css.map",
-    "static/css/main.ca3caa0e.chunk.css.map": "/Portfolio/static/css/main.ca3caa0e.chunk.css.map",
-    "static/js/2.e6f537e4.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.e6f537e4.chunk.js.LICENSE.txt",
+    "static/css/main.64e81c21.chunk.css.map": "/Portfolio/static/css/main.64e81c21.chunk.css.map",
+    "static/js/2.6ebd9615.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.6ebd9615.chunk.js.LICENSE.txt",
     "static/media/CV-GeronimoLopez.pdf": "/Portfolio/static/media/CV-GeronimoLopez.ac1d52c3.pdf",
     "static/media/AboutPage.scss": "/Portfolio/static/media/FotoPerfil.1ed78ea6.jpg",
     "static/media/NET.png": "/Portfolio/static/media/NET.6eb1ee09.png",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.efb1fe8d.js",
     "static/css/2.ae5b9f2a.chunk.css",
-    "static/js/2.e6f537e4.chunk.js",
-    "static/css/main.ca3caa0e.chunk.css",
-    "static/js/main.f12a3c2e.chunk.js"
+    "static/js/2.6ebd9615.chunk.js",
+    "static/css/main.64e81c21.chunk.css",
+    "static/js/main.e7549044.chunk.js"
   ]
 }
