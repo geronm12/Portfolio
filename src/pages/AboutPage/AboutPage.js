@@ -19,7 +19,7 @@ export default function AboutPage(props) {
             </div>
             </div>
             <p>
-                "Aquél que puede conquista a los enemigos es fuerte. Aquél que se ha conquistado a sí mismo es poderoso"
+                "Aquél que puede conquistar a sus enemigos es fuerte. Aquél que se ha conquistado a sí mismo es poderoso"
                  Con esta frase de Lao Tse me presento. Mi nombre es Gerónimo Naum López y hago lo que amo... 
                  ¡Qué bonito poder decir eso! ¿no?. </p>
                    <p>Soy software developer, una profesión que me crucé por pura suerte, por casualidades o quizás
