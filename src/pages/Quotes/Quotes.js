@@ -23,16 +23,12 @@ export default function Quotes(props) {
         
 
         <div id={id} className="quote-page">
-            <h1>CONOCIMIENTOS</h1>
+            <h1>CONOCIMIENTOS - PAGINA EN CONSTRUCCION</h1>
             <div className="quote-page__container">
             {Tecnologias.map((tec, index) => 
              
              <div className="quote-page__container__card" key={index} onClick={() => handleModal(tec)}>
              <img style={{backgroundImage: `url('${tec.img}')`}}  className="quote-page__container__card__item"/>
-             <div className="quote-page__container__card__texto">
-             <h2>{tec.nombre}</h2>
-             <p>{tec.text.substring(0, 80) + "..."}</p>
-             </div>
              </div>
             )}
               
@@ -54,7 +50,7 @@ function TecnologiaModal (props) {
  
     return (
     <Modal onClose={() => setOpen(false)} open={open} className="modal">
-     <Modal.Header className="modal__title">{tecnologia.nombre}</Modal.Header>
+     <Modal.Header className="modal__title">{tecnologia.nombre} - PAGINA EN CONSTRUCCION</Modal.Header>
       <Modal.Content  className="modal__content">
         <div style={{backgroundImage: `url('${tecnologia.img}')`}} className="modal__content__image"></div>
         <Modal.Description>
